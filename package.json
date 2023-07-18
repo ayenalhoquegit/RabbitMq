@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "node publisher.js",
-    "consume": "node consumer.js"
+    "publish": "node ./pub-sub/pub.js",
+    "consume": "node ./pub-sub/sub.js"
   },
   "keywords": [],
   "author": "",
